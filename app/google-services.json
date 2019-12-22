@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "676647609010",
+    "firebase_url": "https://mbolang-84cb5.firebaseio.com",
+    "project_id": "mbolang-84cb5",
+    "storage_bucket": "mbolang-84cb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676647609010:android:d87b5c40e67ba4956e1fab",
+        "android_client_info": {
+          "package_name": "com.jack.mbolang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676647609010-b3557pvsl99hjp1elnineid4utnrsr3c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jack.mbolang",
+            "certificate_hash": "490f1221be54caab19fbe8c1ef7d55e19d0d796a"
+          }
+        },
+        {
+          "client_id": "676647609010-58pag8dovas2talcqjh10ii6hr7r4aoo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7QI9aqqFbqiqdPaczTHao9DOFwoWtljE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676647609010-58pag8dovas2talcqjh10ii6hr7r4aoo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

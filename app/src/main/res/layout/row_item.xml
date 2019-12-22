@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:id="@+id/baris">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"/>
+
+    <ImageView
+        android:id="@+id/img_cover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:adjustViewBounds="true"
+        android:src="@drawable/tes" />
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_cover"
+        android:src="@drawable/ic_star"/>
+    <TextView
+        android:id="@+id/tv_rating"
+        android:layout_toRightOf="@id/star"
+        android:layout_below="@id/img_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8/10"/>
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/star"
+        android:layout_marginLeft="8dp"
+        android:text="TextView"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+</RelativeLayout>
